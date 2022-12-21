@@ -1,0 +1,74 @@
+.home {
+  margin: auto;
+  border: solid 1px red;
+  width: 992px;
+  height: 100%;
+}
+.home header {
+  width: 992px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.home header nav {
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.home header nav .nav-logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.home header nav .nav-logo img {
+  width: 35px;
+}
+.home header nav .nav-name {
+  padding: 10px;
+}
+.home header nav .nav-link ul {
+  display: flex;
+  justify-content: space-between;
+}
+.home header nav .nav-link ul li {
+  list-style: none;
+  padding: 10px;
+}
+.home header nav .nav-link ul li a {
+  text-decoration: none;
+}
+.home .container-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5em;
+}
+.home .container-home .home-imagem {
+  display: flex;
+  align-items: flex-end;
+}
+.home .container-home .home-imagem img {
+  margin: 0;
+  width: 60%;
+}
+.home .container-home .home-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home .container-home .home-txt .txt-button {
+  margin-bottom: 50px;
+  align-items: flex-end;
+}
+.home .container-home .home-txt .txt-button button {
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: #1762a7;
+  border: 1px;
+  border-radius: 8px;
+  font-size: larger;
+}/*# sourceMappingURL=styles.css.map */
