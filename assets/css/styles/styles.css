@@ -1,19 +1,18 @@
 .home {
   margin: auto;
-  border: solid 1px red;
+  display: flex;
   width: 992px;
-  height: 100%;
 }
 .home header {
+  padding-top: 40px;
+  position: fixed;
   width: 992px;
-  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
 }
 .home header nav {
-  align-items: center;
   display: flex;
   width: 100vw;
   justify-content: space-around;
@@ -21,13 +20,15 @@
 .home header nav .nav-logo {
   display: flex;
   align-items: center;
-  padding: 10px;
 }
 .home header nav .nav-logo img {
   width: 35px;
 }
 .home header nav .nav-name {
   padding: 10px;
+}
+.home header nav .nav-name a {
+  text-decoration: none;
 }
 .home header nav .nav-link ul {
   display: flex;
@@ -52,7 +53,8 @@
 }
 .home .container-home .home-imagem img {
   margin: 0;
-  width: 60%;
+  width: 80%;
+  padding-top: 40px;
 }
 .home .container-home .home-txt {
   display: flex;
@@ -71,4 +73,45 @@
   border: 1px;
   border-radius: 8px;
   font-size: larger;
+}
+
+.Discover {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  height: 992px;
+}
+.Discover .discover-container {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+}
+.Discover .discover-new-music {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.Discover .discover-button {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.Discover .discover-button img {
+  width: 100px;
+}
+.Discover .dicover-txt {
+  padding: 40px;
+  text-align: left;
+}
+.Discover .discover-disco img {
+  width: 529px;
+}
+
+.discover-disco {
+  padding: 90px;
+}
+.discover-disco img {
+  width: 529px;
 }/*# sourceMappingURL=styles.css.map */

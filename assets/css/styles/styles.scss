@@ -1,10 +1,13 @@
-.home {  margin: auto;
-    border: solid 1px red;
-    width: 992px;
-  height: 100%;
+.home {
+  margin: auto;
+  display: flex;
+  width: 992px;
+
   header {
-     width: 992px;
-    margin-top: 40px;
+    padding-top: 40px;
+    position: fixed;
+    width: 992px;
+
     // width: 100vw;
     display: flex;
     align-items: center;
@@ -12,7 +15,6 @@
     height: 40px;
 
     nav {
-      align-items: center;
       display: flex;
       width: 100vw;
 
@@ -21,13 +23,17 @@
       .nav-logo {
         display: flex;
         align-items: center;
-        padding: 10px;
+
         img {
           width: 35px;
         }
       }
       .nav-name {
         padding: 10px;
+        a{
+
+          text-decoration: none;
+        }
       }
       .nav-link {
         ul {
@@ -50,18 +56,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   margin-top: 5em;
+    margin-top: 5em;
 
     .home-imagem {
       display: flex;
       align-items: flex-end;
-      
-      
+
       img {
         margin: 0;
-        width: 60%;
-        // height:10%;
-
+        width: 80%;
+        padding-top: 40px;
       }
     }
     .home-txt {
@@ -86,4 +90,51 @@
       }
     }
   }
+}
+
+.Discover {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  height: 992px;
+  .discover-container {
+    display: flex;
+padding: 40px;
+    flex-direction: column;
+  }
+  .discover-new-music {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+
+  .discover-button {
+    display: flex;
+    justify-content: space-around;
+    img {
+      width: 100px;
+    }
+    margin-bottom: 40px;
+  }
+  .dicover-txt{
+    padding: 40px;
+    text-align: left;
+  }
+  .discover-disco {
+    img {
+      width: 529px;
+    }
+  }
+}
+.discover-disco{
+
+ padding: 90px;
+ img{
+
+  width: 529px;
+ }
+  
 }
